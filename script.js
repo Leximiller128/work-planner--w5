@@ -57,10 +57,6 @@ console.log(timeValue);
 
 //}
 
-//append timeblocks onto page **
-
-//user can add information to the timeblocks
-
 //timeblocks are color coded to indicate past, present and future
 
 //user can click a timeblock and enter an event
