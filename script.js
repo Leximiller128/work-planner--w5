@@ -24,13 +24,7 @@ function currentTime(hour) {
 
 //for loop that runs through every hour of the planner **
 
-//}
-
 //timeblocks are color coded to indicate past, present and future
-
-//user can click a timeblock and enter an event
-
-//save button will save the information in the timblock
 
 //text in the timeblock is saved in local storage
 // Local Storage Feature

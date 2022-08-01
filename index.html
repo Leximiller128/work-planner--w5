@@ -22,11 +22,6 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <div class="present"></div>
-  <div class="past"></div>
-  <div class="future"></div>
-  <div class="hour"></div>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -34,10 +29,17 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <main>
-        <div class="timeBlocks"></div>
+
+      <div class="present"></div>
+      <div class="past"></div>
+      <div class="future"></div>
+      <div class="hour"></div>
+
+      
+        
       <!-- Timeblocks go here -->
       <!--9AM-->
+      <div class="timeBlocks"></div>
       <div class="input-group input-group-lg">
         <div class="9am-hour">
           <span class="input-group-text" id="inputGroup-sizing-lg" style="height: 45px; width: 65px;">9am</span>
@@ -127,7 +129,7 @@
                       <div>
                       <button type="btn" class="save-btn" style="height: 50px; width: fit-content; background-color: lightgreen;">Save 💾</div>
                     </div>
-                  </main>
+                 
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
