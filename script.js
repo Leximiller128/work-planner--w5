@@ -13,6 +13,7 @@ const timeblocksContainer = document.getElementById("timeblocks-container");
 
 for (let index = 0; index < hours.length; index++) {
   const outerDiv = document.createElement("div");
+  const textFromStorage = JSON.parse(localStorage.getItem(hours[index]));
   outerDiv.classList.add("input-group", "input-group-lg");
   outerDiv.innerHTML = `
   
@@ -22,7 +23,9 @@ for (let index = 0; index < hours.length; index++) {
 
 <input type="text" class="form-control ${getTimeClass(
     hours[index]
-  )}" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Upcoming Event!" id="9">
+  )}" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Enter Upcoming Event!" value="${
+    textFromStorage || ""
+  }">
 
 <button type="btn" class="save-btn" data-hour=${
     hours[index]
@@ -40,7 +43,7 @@ saveButtons.forEach((button) => {
     console.log(e.target.parentElement.children[1].value);
     localStorage.setItem(
       e.target.dataset.hour,
-      e.target.parentElement.children[1].value
+      JSON.stringify(e.target.parentElement.children[1].value)
     );
   });
 });
