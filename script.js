@@ -54,22 +54,22 @@ function currentTime(hour) {
 //when the page refreshes, the saved events will still be there
 // Display saved tasks
 {
-  var saved8 = localStorage.getItem("text8");
+  var saved8 = localStorage.getItem("text9");
   document.getElementById("9").value = saved8;
-  var saved9 = localStorage.getItem("text9");
+  var saved9 = localStorage.getItem("text10");
   document.getElementById("10").value = saved9;
-  var saved10 = localStorage.getItem("text10");
+  var saved10 = localStorage.getItem("text11");
   document.getElementById("11").value = saved10;
-  var saved11 = localStorage.getItem("text11");
+  var saved11 = localStorage.getItem("text12");
   document.getElementById("12").value = saved11;
-  var saved12 = localStorage.getItem("text12");
+  var saved12 = localStorage.getItem("text13");
   document.getElementById("13").value = saved12;
-  var saved13 = localStorage.getItem("text13");
+  var saved13 = localStorage.getItem("text14");
   document.getElementById("14").value = saved13;
-  var saved14 = localStorage.getItem("text14");
+  var saved14 = localStorage.getItem("text15");
   document.getElementById("15").value = saved14;
-  var saved15 = localStorage.getItem("text15");
+  var saved15 = localStorage.getItem("text16");
   document.getElementById("16").value = saved15;
-  var saved16 = localStorage.getItem("text16");
+  var saved16 = localStorage.getItem("text17");
   document.getElementById("17").value = saved16;
 }
