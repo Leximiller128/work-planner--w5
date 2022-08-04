@@ -35,7 +35,7 @@ for (let index = 0; index < hours.length; index++) {
   timeblocksContainer.append(outerDiv);
 }
 
-//buttons event listeners
+//save button
 var saveButtons = document.querySelectorAll(".save-btn");
 saveButtons.forEach((button) => {
   button.addEventListener("click", (e) => {
